@@ -4,9 +4,14 @@
 * git help [comand]
 ### iniciar
 * git init
+* git status
 * git add .
-* git commmit start_git
+* git commmit -m "start_git"
 ### git config
+* git config --global -e
 * git config --global user.name
 * git config --global user.mail
 * git config --global core.editor "[ruta]"
+
+## LINKS
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup  
