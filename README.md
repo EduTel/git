@@ -12,6 +12,7 @@
 * git config --global user.name
 * git config --global user.mail
 * git config --global core.editor "[ruta]"
-
+### helps
+* git checkout -- .
 ## LINKS
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup  
