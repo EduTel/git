@@ -26,8 +26,12 @@
 * git config --global core.editor "[ruta]"
 * git config --global alias.lg "log --oneline --decorate --all --graph"
 * git config --global alias.st "status -s -b"
+* git diff
+* git diff --staged
+* git reset HEAD \<commit name>
 ### helps
 * git checkout -- .
+* git checkout -- \<file name>
 ## LINKS
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup  
 https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases  
