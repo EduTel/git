@@ -5,10 +5,11 @@
 ### iniciar
 * git init
 * git status
+* git status -s -b
 * git add .
 * git add -A
 * git add -all
-* git add <lista de archivos>
+* git add \<lista de archivos>
 * git add *.XML (directorio actual)
 * git add "*.XML"
 * git add css/
@@ -20,6 +21,8 @@
 * git config --global user.mail
 * git config --global core.editor "[ruta]"
 * git log
+* git log --oneline
+* git log --oneline --decorate --all --graph
 ### helps
 * git checkout -- .
 ## LINKS
