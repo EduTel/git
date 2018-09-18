@@ -33,6 +33,7 @@
     git config --global user.name "name"  
     git config --global user.mail  "mail"  
     git config --global core.editor "[ruta]"  
+    git config core.autocrlf true  
 * Alias  
     git config --global alias.lg "log --oneline --decorate --all --graph"  
     git config --global alias.st "status -s -b"  
