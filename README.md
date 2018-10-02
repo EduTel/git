@@ -27,17 +27,25 @@
     git log --oneline --decorate --all --graph  
 ### git config
 * Ver configuracion global  
+    git config --list  
     git config --global -e  
     git config --global -l  
 * configuracion global  
     git config --global user.name "name"  
-    git config --global user.mail  "mail"  
+    git config --global user.email  "mail"  
     git config --global core.editor "[ruta]"  
     git config core.autocrlf true  
 * Alias  
     git config --global alias.lg "log --oneline --decorate --all --graph"  
     git config --global alias.st "status -s -b"  
-### diff
+### clone  
+* git clone https://github.com/rabbitvcs/rabbitvcs.git  
+### remote  
+* git remote -v
+* git remote show origin
+##push  
+* git push origin master  
+### diff  
 * git diff  
 * git diff --staged  
 ### reset
@@ -48,5 +56,6 @@
 * git checkout -- .  
 * git checkout -- \<file name>  
 ## LINKS
+https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez  
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup  
 https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases  
